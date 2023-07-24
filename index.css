@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.contenedor {
+    margin: auto;
+    margin-top: 50px;
+    background: white;
+    width: 500px;
+}
+.contenedor .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.infoPeople {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    
+}
+.infocontact {
+    margin-left: 5px;
+    font-size: 14px;
+}
+.infocontact h1 {
+    font-size: 14px;
+}
+.more button {
+    background: white;
+    border: 0px;
+}
+.more button i {
+    font-size: 30px;
+}
+
+.infoPeople img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.body {
+    background: url("/img/img.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    width: 100%;
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info .icons {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info .icons button {
+    border: 0px;
+    font-size: 30px;
+    background: white;
+    margin-right: 8px;
+}
+.likeTo{
+    padding: 5px 10px 5px 10px;
+ 
+}
+.likeTo span {
+    font-weight: bold;
+}
+.informacion{
+    width: 100%;
+    padding: 5px 10px 30px 10px;
+
+}
+.informacion p {
+    font-size: 15px;
+}
